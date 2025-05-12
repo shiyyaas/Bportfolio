@@ -10,19 +10,31 @@
             background-color: rgb(14, 13, 13);
             color: white;
         }
+        .glow:hover {
+            text-shadow: 0 0 3px white;
+            transition: text-shadow 0.5s ease; 
+        }
+        .align {
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+
+        .shiyas {
+            text-align: center;
+        }
         .profileimg {
             width: 300px;
-            border: 3px solid white;
+            display: inline;
+            border: 3px solid rgb(245, 245, 245);
             border-radius: 30px;
-        }
-        .profileimg:hover {
-            width: 350px;
             transition: 1s;
             transition-timing-function: ease;
         }
-        .divprofile {
-            text-align: center;
+        .profileimg:hover {
+            width: 350px;
         }
+       
+        
 
     </style>
 </head>
@@ -32,16 +44,26 @@
 
         <h1>SHIYAS</h1>
 
-        <div class="divprofile">
+        <div>
             <img class="profileimg" src="/images/githubprof.jpg" alt="shiyas">
         </div>
-        
 
     </div>
 
-    
+    <div class="about align glow">
+        
+        <h1>About me</h1>
+        <p>
+           A passionate BCA (Honors) student driven by curiosity, creativity, and a love for learning. I enjoy turning ideas into real-world projects, whether it's building web apps, organizing tech events, or helping others learn to code. My journey blends tech skills with hands-on experiences in leadership, teamwork, and self-growth. I'm especially interested in web development, programming logic, and improving my communication skills. This portfolio is a reflection of who I am, what I’ve built, and how I’m growing — one challenge at a time. 
+        </p>
+    </div>
 
+    <div class="projects align glow">
 
+        <h1>Projects</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eius fugiat, doloremque sed tenetur id eos provident vero temporibus est vitae dolor molestiae reiciendis excepturi odit corrupti quasi ut soluta.</p>
+
+    </div>
     
 </body>
 </html>
