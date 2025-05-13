@@ -44,3 +44,10 @@ transition-timing-function: ease;
     transition: 2s;
     transition-timing-function: ease;
 }
+.launcher {
+    width: 50px;
+}
+.headertext {
+    background-color: white;
+    color: black;
+}
