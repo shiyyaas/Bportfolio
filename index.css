@@ -1,27 +1,46 @@
-  * {
-            background-color: rgb(14, 13, 13);
-            color: white;
-        }
-        .glow:hover {
-            text-shadow: 0 0 3px white;
-            transition: text-shadow 0.5s ease; 
-        }
-        .align {
-            margin-left: 100px;
-            margin-right: 100px;
-        }
+/* UNIVERSAL'S */
+body {
+    background-color: rgb(14, 13, 13);
+    color: white;
+}
+.glow:hover {
+    text-shadow: 0 0 3px white;
+    transition: text-shadow 0.5s ease; 
+}
+.align {
+    margin-left: 100px;
+    margin-right: 100px;
+}
 
-        .shiyas {
-            text-align: center;
-        }
-        .profileimg {
-            width: 300px;
-            display: inline;
-            border: 3px solid rgb(245, 245, 245);
-            border-radius: 30px;
-            transition: 1s;
-            transition-timing-function: ease;
-        }
-        .profileimg:hover {
-            width: 350px;
-        }
+/* SPECIFIC'S */
+.shiyas {
+    text-align: center;
+}
+.profileimg {
+    width: 300px;
+    display: inline;
+    border: 3px solid rgb(245, 245, 245);
+    border-radius: 30px;
+    transition: 1s;
+transition-timing-function: ease;
+}
+.profileimg:hover {
+    width: 350px;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    position: fixed;
+    border: 4px solid grey;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.box:hover {
+    width: 100px;
+    height: 200px;
+    transition: 2s;
+    transition-timing-function: ease;
+}
