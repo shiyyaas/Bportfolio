@@ -47,6 +47,10 @@ transition-timing-function: ease;
 .launcher {
     width: 50px;
 }
+.box:hover img {
+    display: none;
+}
+
 .headertext {
     background-color: white;
     color: black;
