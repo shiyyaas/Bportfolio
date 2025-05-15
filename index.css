@@ -40,8 +40,8 @@ transition-timing-function: ease;
 }
 .box:hover {
     width: 100px;
-    height: 200px;
-    transition: 2s;
+    height: 100px;
+    transition: 1s;
     transition-timing-function: ease;
 }
 .launcher {
@@ -54,4 +54,11 @@ transition-timing-function: ease;
 .headertext {
     background-color: white;
     color: black;
+    transform: translate(0px,-1000px);
+    margin: 20px;
+}
+.box:hover .headertext{
+    transform: translate(0px,0px);
+    transition-delay: 0.5s;
+    transition-timing-function: ease;
 }
