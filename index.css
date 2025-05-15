@@ -50,7 +50,6 @@ transition-timing-function: ease;
 .box:hover img {
     display: none;
 }
-
 .headertext {
     background-color: white;
     color: black;
@@ -60,5 +59,8 @@ transition-timing-function: ease;
 .box:hover .headertext{
     transform: translate(0px,0px);
     transition-delay: 0.5s;
-    transition-timing-function: ease;
+    transition-timing-function: ease;  
+}
+.box a {
+    text-decoration: none;
 }
