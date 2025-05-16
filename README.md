@@ -1,3 +1,4 @@
 # SHIYAS PS - Portfolio
 
-## [View My Live Portfolio]([https://your-portfolio-url.com](https://shiyyaas.github.io/portfolio/))
+## [View My Portfolio]([https://your-portfolio-url.com](https://shiyyaas.github.io/portfolio/))
+
