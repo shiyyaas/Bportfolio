@@ -2,11 +2,18 @@ feather.replace(); //For CDN Icons
 
 // Theme changing
 function Lightmode() {
-    console.log(5-4);
-    // Icon changing
+    darkmode = document.getElementsByClassName('floatingbtn2')[0];
+    darkmode.setAttribute('onclick','Darkmode()')
+    // Button
+    btn2 = document.getElementsByClassName('floatingbtn2')[0];
+    btn2.style.backgroundColor = "black"; 
     icon = document.getElementsByClassName('cdnicon')[0];
     icon.setAttribute('data-feather','moon');
-    feather.replace();
+    icon.style.color = "white";
+    feather.replace(); // For feather icons , you should refresh like this
+
+    
+
 
     // x = document.getElementsByTagName('body')[0];
     // x.style.backgroundColor = "white";
