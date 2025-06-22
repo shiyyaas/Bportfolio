@@ -4,31 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SHIYAS PS</title>
+
+    <!-- CSS link -->
     <link rel="stylesheet" href="index.css">
+    <!-- Website icon link -->
     <link rel="website icon" type="jpg" href="images/githubprof.jpg">
+    <!-- icon cdn -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
 </head>
 <body>
 
-    <div class="box">
+    <div class="floatingbtn">
         <img class="launcher" src="images/launcher.webp" alt="launcher">
+        <a href="#about"><p class="headertext">About</p><a>
+        <a href="#projects"><p class="headertext">Projects</p></a>   
+    </div>
 
-        <a href="#about"><p class="headertext">About</p></a>
-        <a href="#projects"><p class="headertext">Projects</p></a>
-        
-        
+    <div class="floatingbtn2" onclick="Lightmode()">
+        <i class="cdnicon" data-feather="sun"></i> <!-- Cdn icon --> 
+        <a href="#about"><p class="headertext">About</p><a>
+        <a href="#projects"><p class="headertext">Projects</p></a>   
     </div>
 
     <div class="shiyas">
-
         <h1>SHIYAS</h1>
         <div>
             <img class="profileimg" src="images/githubprof.jpg" alt="shiyas">
         </div>
-
     </div>
 
-    <section id="about" class="about align glow">
-        
+    <section id="about" class="about align glow">    
         <h1>About me</h1>
         <p>
            A passionate BCA (Honors) student driven by curiosity, creativity, and a love for learning. I enjoy turning ideas into real-world projects, whether it's building web apps, organizing tech events, or helping others learn to code. My journey blends tech skills with hands-on experiences in leadership, teamwork, and self-growth. I'm especially interested in web development, programming logic, and improving my communication skills. This portfolio is a reflection of who I am, what I’ve built, and how I’m growing — one challenge at a time. 
@@ -36,12 +42,12 @@
     </section>
 
     <section id="projects" class="projects align glow">
-
         <h1>Projects</h1>
         <p>
             I am passionate about learning and have created several projects that showcase my skills and interests. My portfolio includes "P-recipe," a website designed to display a variety of recipes in an engaging and user-friendly format. I also developed "Byte Begin Website," an official site for my college’s tech association, where I contributed to both the design and functionality. Additionally, my personal portfolio website serves as a central place to share more about myself, my work, and my journey in the world of technology. Each project reflects my dedication to creating visually appealing and accessible web experiences.
         </p>
     </section>
     
+    <script src="index.js"></script>
 </body>
 </html>
