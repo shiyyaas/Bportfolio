@@ -12,9 +12,8 @@ function Lightmode() {
     icon.style.color = "white";
     feather.replace(); // For feather icons , you should refresh like this
 
-
-    // x = document.getElementsByTagName('body')[0];
-    // x.style.backgroundColor = "white";
+    body = document.getElementById('body');
+    body.style.backgroundColor = "white";
     
 }
 function Darkmode() {
@@ -27,4 +26,7 @@ function Darkmode() {
     icon.setAttribute('data-feather','sun');
     icon.style.color = "black";
     feather.replace(); // For feather icons , you should refresh like this
+
+    body = document.getElementById('body');
+    body.style.backgroundColor = "black";
 }
