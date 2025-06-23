@@ -7,7 +7,7 @@ function Lightmode() {
     darkmode.setAttribute('onclick','Darkmode()')
     // Button
     btn2 = document.getElementsByClassName('floatingbtn2')[0];
-    btn2.style.backgroundColor = "rgb(14, 13, 13)"; 
+    btn2.style.backgroundColor = "rgb(14, 12, 12)"; 
     icon = document.getElementsByClassName('cdnicon')[0];
     icon.setAttribute('data-feather','moon');
     icon.style.color = "white";
@@ -27,12 +27,12 @@ function Lightmode() {
     launcher = document.getElementsByClassName('launcher')[0];
     launcher.src = "images/darklauncher.png";
     btn = document.getElementsByClassName('floatingbtn')[0];
-    btn.style.backgroundColor = "black";
+    btn.style.backgroundColor = " rgb(14, 12, 12)";
     //headertext
     for(i=0;i<2;i++){
         headertext = document.getElementsByClassName('headertext')[i];
         // headertext.style.backgroundColor = "black"; // this works but only for one so...
-        headertext.style.cssText = `background-color: black; color: white; `; 
+        headertext.style.cssText = `background-color:  rgb(14, 12, 12); color: white; `; 
     }
       
 }
