@@ -67,7 +67,7 @@ body {
     display: none;
 }
 .headertext {
-    background-color: white;
+    background-color: rgb(210, 223, 224);
     color: black;
     transform: translate(0px,-1000px);
     margin: 20px;

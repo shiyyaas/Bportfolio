@@ -67,6 +67,6 @@ function Darkmode() {
     for(i=0;i<2;i++){
         headertext = document.getElementsByClassName('headertext')[i];
         // headertext.style.backgroundColor = "black"; // this works but only for one so...
-        headertext.style.cssText = `background-color: white; color: black; `; 
+        headertext.style.cssText = `background-color: rgb(210, 223, 224); color: black; `; 
     }  
 }
