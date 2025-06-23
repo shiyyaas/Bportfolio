@@ -28,7 +28,13 @@ function Lightmode() {
     launcher.src = "images/darklauncher.png";
     btn = document.getElementsByClassName('floatingbtn')[0];
     btn.style.backgroundColor = "black";
-    
+    //headertext
+    for(i=0;i<2;i++){
+        headertext = document.getElementsByClassName('headertext')[i];
+        // headertext.style.backgroundColor = "black"; // this works but only for one so...
+        headertext.style.cssText = `background-color: black; color: white; `; 
+    }
+      
 }
 function Darkmode() {
 
@@ -57,4 +63,10 @@ function Darkmode() {
     launcher.src = "images/launcher.webp";
     btn = document.getElementsByClassName('floatingbtn')[0];
     btn.style.backgroundColor = "white";
+    //headertext
+    for(i=0;i<2;i++){
+        headertext = document.getElementsByClassName('headertext')[i];
+        // headertext.style.backgroundColor = "black"; // this works but only for one so...
+        headertext.style.cssText = `background-color: white; color: black; `; 
+    }  
 }
