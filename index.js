@@ -42,7 +42,7 @@ function Darkmode() {
     darkmode.setAttribute('onclick','Lightmode()')
     // Button
     btn2 = document.getElementsByClassName('floatingbtn2')[0];
-    btn2.style.backgroundColor = "white"; 
+    btn2.style.backgroundColor = "rgb(210, 223, 224)"; 
     icon = document.getElementsByClassName('cdnicon')[0];
     icon.setAttribute('data-feather','sun');
     icon.style.color = "black";
@@ -62,7 +62,7 @@ function Darkmode() {
     launcher = document.getElementsByClassName('launcher')[0];
     launcher.src = "images/launcher.webp";
     btn = document.getElementsByClassName('floatingbtn')[0];
-    btn.style.backgroundColor = "white";
+    btn.style.backgroundColor = "rgb(210, 223, 224)";
     //headertext
     for(i=0;i<2;i++){
         headertext = document.getElementsByClassName('headertext')[i];
