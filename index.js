@@ -12,9 +12,12 @@ function Lightmode() {
     icon.style.color = "white";
     feather.replace(); // For feather icons , you should refresh like this
 
+    
     body = document.getElementById('body');
     body.style.backgroundColor = "white";
-    
+
+    text = document.getElementsByClassName('text')[0];
+    text.style.color = "black";    
 }
 function Darkmode() {
     darkmode = document.getElementsByClassName('floatingbtn2')[0];
