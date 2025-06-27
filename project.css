@@ -3,3 +3,22 @@ body {
     background-color: rgb(14, 12, 12);
     color: white;
 }
+.center {
+    text-align: center;
+}
+header {
+    padding: 10px;
+    display:flex;
+    justify-content: space-evenly; 
+}
+
+/* Projects */
+.projects {
+    /* text-align: justify; */
+    background-color: rgb(62, 63, 63);
+    border-top: 1px solid rgb(116, 110, 110);
+    border-bottom: 1px solid rgb(117, 110, 110);
+}
+.P-img {
+    width: 100px;
+}
