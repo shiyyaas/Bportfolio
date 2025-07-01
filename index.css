@@ -1,6 +1,6 @@
 /* UNIVERSAL'S */
 html {
-    smooth-behavior: smooth;
+    scroll-behavior: smooth;
 }
 body {
     background-color: rgb(14, 12, 12);
