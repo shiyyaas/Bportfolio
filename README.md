@@ -1,4 +1,4 @@
-# SHIYAS PS - Portfolio
+# Shiyas ps - Portfolio
 
 Welcome to my personal portfolio repository! This project showcases who I am, the projects I've built, and my journey in the world of technology. It is a responsive, interactive, and visually appealing website built with HTML, CSS, and JavaScript.
 
