@@ -34,11 +34,11 @@ My journey blends tech skills with hands-on experiences in leadership, teamwork,
 
 ## 📸 Preview Darkmode
 
-![Portfolio Preview](images/preview.png)
+![Portfolio Preview Darkmode](images/preview.png)
 
 ## 📸 Preview Lightmode
 
-![Portfolio Preview](images/previewL.png)
+![Portfolio Preview Lightmode](images/previewL.png)
 
 ---
 
