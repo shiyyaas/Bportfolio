@@ -32,9 +32,13 @@ My journey blends tech skills with hands-on experiences in leadership, teamwork,
 
 ---
 
-## 📸 Preview
+## 📸 Preview Darkmode
 
-![Portfolio Preview](images/shiyaaa.jpeg)
+![Portfolio Preview](images/preview.png)
+
+## 📸 Preview Lightmode
+
+![Portfolio Preview](images/previewL.png)
 
 ---
 
